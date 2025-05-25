@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- DOCTYPE kullanarak kodun HTML5 standardında yazıldığını tarayıcıya bildirdim-->
+<head>
+  <meta charset="UTF-8" />
+  <title>ONE RED LOT OF BLUE</title>
+  <style>
+    canvas {                 
+      border: 5px solid yellow;
+      display: block;
+      margin: 0 auto;
+      background: white;
+    }
+  </style>
+</head>
+<body style="background-color: rgb(138, 158, 245);">
+<!-- js kodundan erişebilmek için id tanımladım ve inner css ile ona görünüş tanımladım-->
+<!-- displayi none olarak ayarladım çünkü bu yazının hep olmasını değil sadece oyun yenilgisinde ortaya 
+ çıkmasını istedim bu ekranın çıkmasını da js kodunda ayarladım-->
+<div id="defeatScreen" style="   
+  display: none; 
+  width: 100vw; height: 100vh; 
+  background-color: rgba(156, 15, 15, 0.8);
+  color: rgb(255, 255, 255); 
+  font-size: 75px;
+  top: 0; left: 0; 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  position: fixed; 
+  z-index: 9999;">
+  <!-- position ve z- index ile en üst katmanda olmasını sağladım yani oyun yenilgisinde 
+   her şeyin üstünde çıkacak şekilde ayarlamak için kulllandım-->
+  <div>KAYBETTİNİZ!!</div>
+  <div id="finalScore"></div> <!-- defeat ekranımda göstereceğim skor-->
+</div>
+  <!-- ekranın sol tarafında görünen skor belirtem yazımı şeklini rengini ayarladım-->
+  <div id="score" style="
+    border-color: blueviolet;
+    text-decoration-color: blueviolet;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff1605;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center; ">SCORE:00</div>
+    <!-- idsini kullanarak js kodumda erişip her skor artışında yeniledim-->
+  <audio id="backgroundMusic" src="music/loopmusic.mp3" loop autoplay></audio>
+  <audio id="eatMusic" src="music/win.wav"></audio>
+  <audio id="dieMusic" src="music/die.wav"></audio>
+  <canvas id="ourCanvas" width="512" height="512"></canvas> <!--Bu etiket sayesinde tarayıcıda şekiller grafikler oluşturabiliriz -->
+  <script src="script.js"></script> <!-- script kodlarımın olduğu yeri link ile belirtttim-->
+</body>
+</html>
