@@ -48,7 +48,7 @@ Ya da
 - **Müzik:** `loopmusic.mp3`
 - **Düşman Yendi Sesi:** `win.wav`
 - **Oyun Bitti Sesi:** `die.wav`
-> **Not:** Seslerin otomatik oynatılması için kullanıcı etkileşimi gereklidir. Oyuncu klavyeden herhangi bit tuşa bastığında müzik başlar.
+> **Not:** Seslerin otomatik oynatılması için kullanıcı etkileşimi gereklidir. Oyuncu klavyeden herhangi bir tuşa bastığında müzik başlar.
 
 ### Teknolojiler
 
