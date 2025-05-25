@@ -48,6 +48,7 @@ Ya da
 - **Müzik:** `loopmusic.mp3`
 - **Düşman Yendi Sesi:** `win.wav`
 - **Oyun Bitti Sesi:** `die.wav`
+[Aldığım seslerin linki](https://freesound.org)
 > **Not:** Seslerin otomatik oynatılması için kullanıcı etkileşimi gereklidir. Oyuncu klavyeden herhangi bir tuşa bastığında müzik başlar.
 
 ### Teknolojiler
