@@ -40,6 +40,8 @@ Aşağıdaki aşamaları takip ederek basit bir şekilde oynayabilirsiniz.
 2. `index.html` dosyasını bir tarayıcıda açın.
 3. Ok tuşları ya da W, A, S, D ile oynamaya başlayın!
 
+Ya da 
+**https://nurgull6872.github.io/one-red-lot-of-blue/** direkt bu siteden oynayabilirsiniz.
 
 ### Sesler
 
@@ -82,6 +84,7 @@ OneRedLotOfBlue/
 │ |── die.wav
 |── defeatekran.jpg
 |── playekran.jpg
+
 
 
 **oyunumun youtube tanıtım videosu linki**
